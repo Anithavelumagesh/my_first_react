@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+// import Useref from './Component/Useref';
+// import DocTitleOne from './Component/DocTitleOne';
+// import DocTitleTwo from './Component/DocTitleTwo';
+import CounterOne from './Component/CounterOne';
+import CounterTwo from './Component/CounterTwo';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    {/* <Useref/> */}
+    {/* <UseWindow/> */}
+    {/* <DocTitleOne/> */}
+    {/* <DocTitleTwo/> */}
+    <CounterOne/>
+    <CounterTwo/>
     </div>
   );
 }
